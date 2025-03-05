@@ -1,0 +1,59 @@
+#root {
+  width: 100%;
+  padding: 0px;
+  text-align: center;
+  margin: 0px;
+}
+
+.logo {
+  height: 6em;
+  padding: 1px;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* .card {
+  padding: 2em;
+} */
+
+.read-the-docs {
+  color: #888;
+}
+
+
+/* Background for the whole app */
+.app-container {
+  background-image: url('https://i.pinimg.com/736x/14/7d/79/147d79c9bb88ac8bddd08f2fd110f11f.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 100vh;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Make sections transparent so they don't override the background */
+.Navbar, .HeroSection, .Countdown , .PoweredBy{
+  background: transparent;
+}

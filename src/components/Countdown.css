@@ -1,0 +1,58 @@
+.countdown {
+    text-align: center;
+    padding: 20px;
+    /* background-color: white; */
+    color: rgb(56, 56, 56);
+}
+
+.countdown-box {
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 2rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    background: rgb(20, 20, 20);
+    color: white;
+    border-radius: 20px;
+    letter-spacing: 3px;
+}
+
+/* Countdown numbers */
+.countdown-box span {
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(214, 214, 214);
+}
+
+.countdown-box span:not(:last-child) {
+    margin-right: 10px;
+}
+
+/* RESPONSIVENESS */
+
+/* Medium screens (tablets) */
+@media (max-width: 768px) {
+    .countdown-box {
+        padding: 15px 30px;
+        font-size: 1.5rem;
+        border-radius: 15px;
+    }
+
+    .countdown-box span {
+        font-size: 1.5rem;
+    }
+}
+
+/* Small screens (phones) */
+@media (max-width: 480px) {
+    .countdown-box {
+        padding: 10px 20px;
+        font-size: 1.2rem;
+        border-radius: 10px;
+        letter-spacing: 1px;
+    }
+
+    .countdown-box span {
+        font-size: 1.2rem;
+    }
+}

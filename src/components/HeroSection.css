@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400;600&display=swap');
+
+.hero {
+    margin: 0px;
+    width: 100vw; 
+    min-height: 80vh; /* Full screen height */
+    /* background: url("https://i.pinimg.com/736x/14/7d/79/147d79c9bb88ac8bddd08f2fd110f11f.jpg") no-repeat center center; */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    padding-bottom: 0px;
+}
+
+.hero-content {
+  max-width: 1000px;
+  width: 100%;
+  margin: auto;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #222;
+  display: flex;
+  flex-direction: column;
+}
+
+.highlight {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #132516;
+  font-family: 'Playfair Display', serif;
+  align-self: flex-start;
+  margin: 0px;
+  padding-left: 15px;
+}
+
+.subtext {
+  font-size: 3.5rem;
+  font-weight: normal;
+  color: #222;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.hero-text {
+  font-size: 1.2rem;
+  color: #494949;
+  margin-bottom: 25px;
+  font-family: 'Inter', sans-serif;
+}
+
+
+/* From Uiverse.io by satyamchaudharydev */ 
+
+.center-container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 10vh; /* Full viewport height */
+  }
+
+  
+button {
+   --primary-color: #000b12;
+   --secondary-color: #fff;
+   --hover-color: #001623; 
+    --arrow-width: 10px;
+    --arrow-stroke: 2px;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 20px;
+    color: var(--secondary-color);
+    padding: 1em 1.8em;
+    background: var(--primary-color);
+    display: flex;
+    transition: 0.2s background;
+    align-items: center;
+    gap: 0.6em;
+    font-weight: bold;
+  }
+  
+  button .arrow-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  button .arrow {
+    margin-top: 1px;
+    width: var(--arrow-width);
+    background: var(--primary-color);
+    height: var(--arrow-stroke);
+    position: relative;
+    transition: 0.2s;
+  }
+  
+  button .arrow::before {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    border: solid var(--secondary-color);
+    border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+    display: inline-block;
+    top: -3px;
+    right: 3px;
+    transition: 0.2s;
+    padding: 3px;
+    transform: rotate(-45deg);
+  }
+  
+  button:hover {
+    background-color: var(--hover-color);
+  }
+  
+  button:hover .arrow {
+    background: var(--secondary-color);
+  }
+  
+  button:hover .arrow:before {
+    right: 0;
+  }
+
+
+
+
+
+
+/* 🔥 RESPONSIVE FIXES 🔥 */
+@media (max-width: 1024px) {
+  .hero {
+    padding: 80px 15px; /* Reduce padding on tablets */
+  }
+
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .highlight {
+    font-size: 2.2rem;
+  }
+
+  .subtext {
+    font-size: 3rem;
+  }
+
+  .hero-text {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 60px 10px; /* Reduce padding on smaller screens */
+  }
+
+  .hero-title {
+    font-size: 1.8rem;
+    text-align: center; /* Center align text */
+  }
+
+  .highlight {
+    font-size: 2rem;
+    padding-left: 0px; /* Remove left padding */
+    text-align: center;
+  }
+
+  .subtext {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .hero-text {
+    font-size: 1rem;
+  }
+
+  .register-btn {
+    font-size: 0.9rem;
+    padding: 10px 15px;
+  
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 50px 5px; /* Even smaller padding for mobile */
+  }
+
+  .hero-title {
+    font-size: 1.5rem;
+  }
+
+  .highlight {
+    font-size: 1.8rem;
+  }
+
+  .subtext {
+    font-size: 2rem;
+  }
+
+  .hero-text {
+    font-size: 0.9rem;
+  }
+
+  .register-btn {
+    font-size: 0.8rem;
+    padding: 8px 12px;
+  }
+}
+
+
+
+
+
+
+
+
+

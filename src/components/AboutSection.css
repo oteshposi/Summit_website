@@ -1,0 +1,69 @@
+.about-section {
+    width: 100%; /* Full width */
+    min-height: 60vh; /* Minimum height */
+    background-color: #01273f; /* Dark green background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 65px; /* Adjust padding for better spacing */
+    margin: 0px;
+}
+
+/* Title */
+.about-title {
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+    align-self: flex-start;
+}
+
+/* Content */
+.about-content {
+    max-width: 900px;
+    color: #008ae0;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+    line-height: 1.6;
+    align-self: flex-start;
+}
+
+/* RESPONSIVENESS */
+
+/* For tablets (max-width: 768px) */
+@media (max-width: 768px) {
+    .about-section {
+        padding: 40px 30px; /* Reduce side padding */
+    }
+
+    .about-title {
+        font-size: 2rem; /* Decrease title size */
+    }
+
+    .about-content {
+        font-size: 0.95rem; /* Slightly smaller text */
+        line-height: 1.5;
+    }
+}
+
+/* For small screens (phones) */
+@media (max-width: 480px) {
+    .about-section {
+        padding: 30px 20px; /* Reduce padding further */
+    }
+
+    .about-title {
+        font-size: 1.8rem; /* Smaller title */
+        text-align: center; /* Center title for better readability */
+        align-self: center;
+    }
+
+    .about-content {
+        font-size: 0.9rem; /* Adjust text size */
+        text-align: justify; /* Improve readability */
+        max-width: 100%; /* Allow content to take full width */
+    }
+}
