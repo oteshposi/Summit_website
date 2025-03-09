@@ -1,24 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400;600&display=swap');
 
-.hero {
-    margin: 0px;
-    width: 100vw; 
-    min-height: 80vh; /* Full screen height */
-    /* background: url("https://i.pinimg.com/736x/14/7d/79/147d79c9bb88ac8bddd08f2fd110f11f.jpg") no-repeat center center; */
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    box-sizing: border-box;
-    padding-bottom: 0px;
-}
+
 
 .hero-content {
   max-width: 1000px;
   width: 100%;
-  margin: auto;
+  margin: 0 auto;
+  padding: 0px;
+  display: flex;
+  flex-direction: column; /* Ensures vertical arrangement */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 40px;
 }
 
 .hero-title {
@@ -26,7 +22,10 @@
   font-weight: bold;
   color: #222;
   display: flex;
-  flex-direction: column;
+  flex-direction: column; /* Ensures the spans stack vertically */
+  align-items: center; /* Centers the text horizontally */
+  text-align: center;
+  padding-top: 40px;
 }
 
 .highlight {
@@ -133,7 +132,7 @@ button {
 /* 🔥 RESPONSIVE FIXES 🔥 */
 @media (max-width: 1024px) {
   .hero {
-    padding: 80px 15px; /* Reduce padding on tablets */
+    padding: 0px; /* Reduce padding on tablets */
   }
 
   .hero-title {
@@ -155,7 +154,7 @@ button {
 
 @media (max-width: 768px) {
   .hero {
-    padding: 60px 10px; /* Reduce padding on smaller screens */
+    padding: 0px; /* Reduce padding on smaller screens */
   }
 
   .hero-title {
@@ -180,7 +179,7 @@ button {
 
   .register-btn {
     font-size: 0.9rem;
-    padding: 10px 15px;
+    padding: 0px;
   
   }
 }

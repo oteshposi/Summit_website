@@ -4,12 +4,12 @@ import "./HeroSection.css"; // Import the CSS file
 
 const HeroSection = () => {
   return (
-    <section className="hero">
+    <section >
       <div className="hero-content">
-      <h1 className="hero-title">
-        <span className="highlight">The Tech Renaissance:</span> 
-        <span className="subtext">Awakening Potential, Reshaping the Future</span>
-      </h1>
+        <h1 className="hero-title">
+          <span className="highlight">The Tech Renaissance:</span> 
+          <span className="subtext">Awakening Potential, Reshaping the Future</span>
+        </h1>
 
         <p className="hero-text">
           Join innovators, engineers, and entrepreneurs at the largest Tech Summit in Ekiti as we

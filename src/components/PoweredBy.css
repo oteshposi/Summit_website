@@ -1,82 +1,31 @@
-.powered-by {
-    text-align: center;
-    padding: 40px 20px;
-    /* background-color: #fff; */
+.powered-by-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 16px;
+  width: 100%; /* Ensure it takes full width */
+  max-width: 600px; /* Limit width on large screens */
+  margin: auto;
 }
 
-.powered-text {
-    font-size: 1.8rem;
-    font-weight: bold;
-    margin-bottom: 10px;
-    color: #474747;
+.powered-by-text {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: rgb(65, 65, 65);
+  margin: 0;
 }
 
-.euretix-logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.euretix-logo p {
-    color: black;
-    font-size: 2rem;
-    text-align: center; /* Center text */
-    max-width: 180px;
-    height: auto;
-    font-family: 'Playfair Display', serif;
+.powered-by-name {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
 }
 
 .collaboration-text {
-    font-size: 1.0rem;
-    font-weight: 600;
-    margin-top: 20px;
-    color: #646464;
+  font-size: 14px;
+  color: gray;
 }
 
-/* Flex container for logos */
-.partner-logos {
-    display: flex;
-    justify-content: center; /* Center logos horizontally */
-    flex-wrap: wrap; /* Allow wrapping on smaller screens */
-    gap: 30px; /* Uniform spacing between logos */
-    padding: 20px 0;
-}
-
-/* Default styles for logos */
-.partner-logo {
-    height: auto;
-}
-
-/* Custom scaling for each logo */
-.partner1 {
-    max-width: 150px;
-}
-
-.partner2 {
-    max-width: 120px;
-}
-
-.partner3 {
-    max-width: 50px;
-}
-
-/* Responsive spacing adjustments */
-@media (max-width: 768px) {
-    .partner-logos {
-        gap: 20px; /* Reduce space between logos */
-    }
-    
-    .partner1 { max-width: 120px; }
-    .partner2 { max-width: 100px; }
-    .partner3 { max-width: 80px; }
-}
-
-@media (max-width: 480px) {
-    .partner-logos {
-        gap: 15px; /* Reduce spacing for smaller screens */
-    }
-    
-    .partner1 { max-width: 100px; }
-    .partner2 { max-width: 80px; }
-    .partner3 { max-width: 60px; }
-}
