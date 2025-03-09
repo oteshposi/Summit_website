@@ -18,7 +18,7 @@ const Footer = () => {
         <a href="mailto:info@ikoletechsummit.com"><FaEnvelope /></a>
       </div>
 
-      <p className="copyright">© {new Date().getFullYear()} Ikole Tech Summit. All rights reserved.</p>
+      <p className="copyright">© {new Date().getFullYear()} Axrev Tech Summit. All rights reserved.</p>
     </footer>
   );
 };
