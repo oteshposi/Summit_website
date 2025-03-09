@@ -5,63 +5,63 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 20px;
+  padding: 15px;
   width: 80%;
-  max-width: 600px;
+  max-width: 500px;
   margin: auto;
 }
 
 .powered-by-text {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: bold;
-  margin-bottom: 5px;
+  margin-bottom: 4px;
   color: rgb(65, 65, 65);
 }
 
 .powered-by-name {
-  font-size: 2.5em;
+  font-size: 2rem;
   font-weight: bold;
   color: rgb(0, 0, 0);
   font-family: Georgia, 'Times New Roman', Times, serif;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .collaboration-text {
-  font-size: 14px;
+  font-size: 12px;
   color: gray;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
 }
 
 .logos-container {
   display: flex;
-  gap: 20px;
+  gap: 15px;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  width: 50%;
+  width: 60%;
 }
 
 .logo {
-  width: 120px; /* Set a fixed width */
-  height: 80px; /* Set a fixed height */
+  width: 100px; /* Smaller fixed width */
+  height: 70px; /* Smaller fixed height */
   object-fit: contain; /* Ensure logos are fully visible */
 }
 
 @media (max-width: 600px) {
   .powered-by-text {
-    font-size: 1.2rem;
-  }
-
-  .powered-by-name {
-    font-size: 1.5rem;
-  }
-
-  .collaboration-text {
     font-size: 1rem;
   }
 
+  .powered-by-name {
+    font-size: 1.3rem;
+  }
+
+  .collaboration-text {
+    font-size: 0.9rem;
+  }
+
   .logo {
-    width: 100px;
-    height: 70px;
+    width: 80px;
+    height: 60px;
   }
 }
