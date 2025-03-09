@@ -16,7 +16,8 @@
 .logo-img {
     width: 13rem; /* Adjust size */
     height: auto; /* Maintain aspect ratio */
-    padding-left: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 
 /* NAVIGATION LINKS */

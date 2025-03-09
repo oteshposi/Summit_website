@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className="navbar">
       {/* Logo */}
       <div>
-        <img src={logo} className="logo-img" alt="Ikole Tech Summit Logo" />
+        {/* <img src={logo} className="logo-img" alt="Ikole Tech Summit Logo" /> */}
       </div>
 
       {/* Navigation Links */}
